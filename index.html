@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enabling Time-Domain Science with LSST EDP2</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="site-title" href="index.html">LSST EDP2 Workshop</a>
+      <nav class="main-nav">
+        <a href="index.html" aria-current="page">Overview</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="speakers.html">Speakers &amp; Organizers</a>
+        <a href="venue.html">Venue &amp; Travel</a>
+        <a href="register.html">Registration</a>
+        <a href="abstracts.html">Abstract Submission</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Enabling Time-Domain Science with LSST EDP2</h1>
+      <p><span class="accent">September 22&ndash;25, 2026</span></p>
+      <p>University of Pittsburgh &middot; Hybrid</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>Overview</h2>
+      <p>
+        Rubin Observatory's Early Data Preview 2 (EDP2) gives the time-domain
+        community its first encounter with real processed LSST data. The realistic
+        characteristics and volume of EDP2 present challenges not fully captured by
+        simulations and render many existing analysis pipelines impractical. This
+        hands-on workshop unites time-domain astronomers and cosmologists across
+        DESC, TVS, and the SLSC to tackle the analysis challenges posed by EDP2 and
+        a ramped-up alert stream &mdash; from transient discovery through
+        spectroscopic follow-up selection &mdash; using
+        <a href="https://lincc-frameworks.github.io/" target="_blank" rel="noopener">LINCC Frameworks</a>
+        tools. The workshop will produce reusable tutorials addressing these
+        challenges, seed new cross-collaboration efforts, and build lasting
+        momentum for pipeline development at the Rubin scale.
+      </p>
+
+      <div class="funding-note">
+        <strong>Funded by the <a href="https://lsstdiscoveryalliance.org/lincc-frameworks-community-events/" target="_blank" rel="noopener">LSST Discovery Alliance</a></strong>
+        through the LINCC Frameworks Community Events program.
+        We gratefully acknowledge their support in making this workshop possible.
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="container">
+      <h2>Key Dates</h2>
+      <p><strong>Workshop:</strong> September 22&ndash;25, 2026 (half day on Sep 25)</p>
+      <p><strong>Venue:</strong> University of Pittsburgh, Pittsburgh, PA &mdash; primarily in person, with talks and tutorials broadcast over Zoom</p>
+      <p>
+        See the <a href="schedule.html">schedule</a> page for session details,
+        the <a href="register.html">registration</a> page to sign up, and the
+        <a href="abstracts.html">abstract submission</a> page to propose a talk or poster.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>Goals</h2>
+      <p>
+        The workshop targets common time-domain challenges posed by EDP2 and the
+        LSST alert stream: filtering the dataset to identify transient candidates;
+        classification and light-curve fitting; cross-matching with galaxy catalogs
+        for host-galaxy association and photometry; selecting candidates for
+        spectroscopic follow-up; evaluating forced photometry and scene-modeling
+        photometry requirements; incorporating alert and prompt data products into
+        discovery workflows; and generating realistic simulations to characterize
+        selection effects and correct for biases.
+      </p>
+      <p>
+        The program combines a small number of invited and contributed talks with
+        dedicated hack days for tutorial development and co-working time. Concrete
+        targets: at least <strong>five public tutorial modules</strong> and at
+        least <strong>three cross-collaboration hack projects</strong> that
+        continue beyond the workshop, supported afterward by a dedicated Slack
+        channel, a one-month follow-up call, and a public GitHub repository.
+      </p>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="container">
+      <h2>LINCC Frameworks Tools</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>LSDB / HATS</h3>
+          <p class="affiliation">
+            Large-scale catalog and time-series analysis &mdash; filtering EDP2 and
+            alert-stream data, cross-matching against galaxy and redshift catalogs,
+            and light-curve fitting at scale.
+          </p>
+        </div>
+        <div class="card">
+          <h3>LightCurveLynx</h3>
+          <p class="affiliation">
+            Realistic simulations based on EDP2 visit tables, compared against real
+            transient catalogs and other simulation tools (e.g. SNANA).
+          </p>
+        </div>
+        <div class="card">
+          <h3>RAIL</h3>
+          <p class="affiliation">
+            Photometric redshift framework used to obtain photo-z estimates for
+            candidate host galaxies.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Hyrax</h3>
+          <p class="affiliation">
+            Machine-learning inference framework, adapted here to classify EDP2
+            light curves.
+          </p>
+        </div>
+      </div>
+      <p style="margin-top: 1.5rem;">
+        The workshop will also make use of <strong>FASTDB</strong> (DESC's
+        transient database), <strong>Blast</strong> for host-galaxy association,
+        alert brokers integrated with FASTDB, the
+        <strong>Rubin Science Platform (RSP)</strong>, and <strong>NERSC</strong>
+        for larger-scale computation.
+      </p>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <div>
+        <p>Enabling Time-Domain Science with LSST EDP2 &middot; Sep 22&ndash;25, 2026 &middot; University of Pittsburgh</p>
+        <p>Organized by Mi Dai (University of Pittsburgh) and Rebecca Chen (Stanford/KIPAC/SLAC)</p>
+      </div>
+      <div>
+        <p>Funded by the <a href="https://lsstdiscoveryalliance.org/lincc-frameworks-community-events/" target="_blank" rel="noopener">LSST Discovery Alliance</a> through the LINCC Frameworks Community Events program</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

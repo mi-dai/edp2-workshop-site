@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Mi Dai",
+    "role": "PI & Local Organizing Committee Chair",
+    "affiliation": "University of Pittsburgh",
+    "title": "Research Assistant Professor",
+    "bio": "LINCC Frameworks project scientist; co-leads the LightCurveLynx project; experienced user of LSDB and Hyrax; SOC member for the first LINCC Frameworks hackathon; co-convener of the DESC Time-Domain working group."
+  },
+  {
+    "name": "Rebecca Chen",
+    "role": "Co-PI",
+    "affiliation": "Stanford University / KIPAC / SLAC",
+    "title": "",
+    "bio": "Extensive experience simulating transient surveys with the SNANA/PIPPIN pipeline ecosystem; experienced user of RAIL for photometric redshift estimation; served on multiple LOCs and SOCs for DESC and DES collaboration meetings."
+  },
+  {
+    "name": "Suhail Dhawan",
+    "role": "Co-Investigator",
+    "affiliation": "University of Birmingham",
+    "title": "",
+    "bio": ""
+  },
+  {
+    "name": "Matthew Grayling",
+    "role": "Co-Investigator",
+    "affiliation": "University of Cambridge",
+    "title": "",
+    "bio": "Co-convener of the DESC Time-Domain working group; leads integration of the BayeSN SED model within DESC infrastructure."
+  },
+  {
+    "name": "Jason (Jaemyoung) Lee",
+    "role": "Co-Investigator",
+    "affiliation": "University of Wisconsin–Madison",
+    "title": "",
+    "bio": "Developing a SN Ia host-galaxy property estimation pipeline and a scene-modeling photometry (SMP) code; leads a SMP challenge in the DESC Pixels to Light Curves working group."
+  },
+  {
+    "name": "Ayan Mitra",
+    "role": "Co-Investigator",
+    "affiliation": "University of Illinois Urbana-Champaign",
+    "title": "",
+    "bio": ""
+  },
+  {
+    "name": "Gautham Narayan",
+    "role": "Co-Investigator",
+    "affiliation": "University of Illinois Urbana-Champaign",
+    "title": "",
+    "bio": ""
+  },
+  {
+    "name": "Corentin Ravoux",
+    "role": "Co-Investigator",
+    "affiliation": "LPCA",
+    "title": "",
+    "bio": ""
+  },
+  {
+    "name": "Benjamin Rose",
+    "role": "Co-Investigator",
+    "affiliation": "Baylor University",
+    "title": "",
+    "bio": ""
+  },
+  {
+    "name": "Crescenzo Tortora",
+    "role": "Co-Investigator",
+    "affiliation": "INAF",
+    "title": "",
+    "bio": ""
+  },
+  {
+    "name": "Maria Vincenzi",
+    "role": "Co-Investigator",
+    "affiliation": "University of Oxford",
+    "title": "",
+    "bio": ""
+  },
+  {
+    "name": "Michael Wood-Vasey",
+    "role": "Co-Investigator & Local Organizing Committee",
+    "affiliation": "University of Pittsburgh",
+    "title": "",
+    "bio": ""
+  }
+]

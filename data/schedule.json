@@ -1,0 +1,54 @@
+[
+  {
+    "date": "2026-09-22",
+    "label": "Day 1 — Tuesday, Sep 22",
+    "sessions": [
+      {
+        "time": "Morning",
+        "title": "Welcome and logistics; introduction to EDP2 and LINCC Frameworks tools; invited talks on key science drivers and EDP2 challenges; Tutorial 1 (e.g. LSDB catalog cross-matching)"
+      },
+      {
+        "time": "Afternoon",
+        "title": "Contributed talks; Tutorials 2–3 (e.g. Hyrax light-curve classification; LightCurveLynx simulations); Day 1 wrap-up"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "label": "Day 2 — Wednesday, Sep 23",
+    "sessions": [
+      {
+        "time": "Morning",
+        "title": "Daily standup and goals; hack project pitches and team formation; hack / science working groups begin"
+      },
+      {
+        "time": "Afternoon",
+        "title": "Hack / science working groups; progress check-in"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "label": "Day 3 — Thursday, Sep 24",
+    "sessions": [
+      {
+        "time": "Morning",
+        "title": "Daily standup and goals; hack / science working groups"
+      },
+      {
+        "time": "Afternoon",
+        "title": "Hack / science working groups; tutorial development sprint and preparation of final presentations"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "label": "Day 4 — Friday, Sep 25 (half day)",
+    "sessions": [
+      {
+        "time": "Morning",
+        "title": "Presentation of results; roadmap for community resources; close and next steps"
+      }
+    ]
+  }
+]

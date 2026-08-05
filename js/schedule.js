@@ -36,9 +36,21 @@ function renderSchedule(days) {
         item.appendChild(time);
 
         const details = document.createElement("div");
-        const title = document.createElement("div");
-        title.textContent = session.title || "";
-        details.appendChild(title);
+
+        if (session.items && session.items.length > 0) {
+          const itemList = document.createElement("ul");
+          itemList.className = "session-items";
+          session.items.forEach((itemText) => {
+            const itemEl = document.createElement("li");
+            itemEl.textContent = itemText;
+            itemList.appendChild(itemEl);
+          });
+          details.appendChild(itemList);
+        } else if (session.title) {
+          const title = document.createElement("div");
+          title.textContent = session.title;
+          details.appendChild(title);
+        }
 
         const metaText = [session.speaker, session.location]
           .filter(Boolean)

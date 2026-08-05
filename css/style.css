@@ -201,6 +201,11 @@ h1, h2, h3 {
   font-weight: 600;
 }
 
+.session-items {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
 .placeholder-note {
   color: var(--text-muted);
   font-style: italic;

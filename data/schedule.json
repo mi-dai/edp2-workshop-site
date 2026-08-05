@@ -5,11 +5,20 @@
     "sessions": [
       {
         "time": "Morning",
-        "title": "Welcome and logistics; introduction to EDP2 and LINCC Frameworks tools; invited talks on key science drivers and EDP2 challenges; Tutorial 1 (e.g. LSDB catalog cross-matching)"
+        "items": [
+          "Welcome and logistics",
+          "Introduction to EDP2 and LINCC Frameworks tools",
+          "Invited talks on key science drivers and EDP2 challenges",
+          "Tutorial 1 (e.g. LSDB catalog cross-matching)"
+        ]
       },
       {
         "time": "Afternoon",
-        "title": "Contributed talks; Tutorials 2–3 (e.g. Hyrax light-curve classification; LightCurveLynx simulations); Day 1 wrap-up"
+        "items": [
+          "Contributed talks",
+          "Tutorials 2–3 (e.g. Hyrax light-curve classification; LightCurveLynx simulations)",
+          "Day 1 wrap-up"
+        ]
       }
     ]
   },
@@ -19,11 +28,18 @@
     "sessions": [
       {
         "time": "Morning",
-        "title": "Daily standup and goals; hack project pitches and team formation; hack / science working groups begin"
+        "items": [
+          "Daily standup and goals",
+          "Hack project pitches and team formation",
+          "Hack / science working groups begin"
+        ]
       },
       {
         "time": "Afternoon",
-        "title": "Hack / science working groups; progress check-in"
+        "items": [
+          "Hack / science working groups",
+          "Progress check-in"
+        ]
       }
     ]
   },
@@ -33,11 +49,17 @@
     "sessions": [
       {
         "time": "Morning",
-        "title": "Daily standup and goals; hack / science working groups"
+        "items": [
+          "Daily standup and goals",
+          "Hack / science working groups"
+        ]
       },
       {
         "time": "Afternoon",
-        "title": "Hack / science working groups; tutorial development sprint and preparation of final presentations"
+        "items": [
+          "Hack / science working groups",
+          "Tutorial development sprint and preparation of final presentations"
+        ]
       }
     ]
   },
@@ -47,7 +69,11 @@
     "sessions": [
       {
         "time": "Morning",
-        "title": "Presentation of results; roadmap for community resources; close and next steps"
+        "items": [
+          "Presentation of results",
+          "Roadmap for community resources",
+          "Close and next steps"
+        ]
       }
     ]
   }

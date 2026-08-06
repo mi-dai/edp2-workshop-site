@@ -264,6 +264,10 @@ h1, h2, h3 {
   color: var(--pitt-gold);
 }
 
+.site-footer p {
+  margin: 0;
+}
+
 .site-footer .footer-row {
   display: flex;
   flex-wrap: wrap;
@@ -293,5 +297,6 @@ h1, h2, h3 {
 
   .footer-row {
     flex-direction: column;
+    gap: 0.25rem;
   }
 }

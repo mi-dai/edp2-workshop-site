@@ -6,19 +6,31 @@
       {
         "time": "Morning",
         "items": [
-          "Welcome and logistics",
-          "Introduction to EDP2 and LINCC Frameworks tools",
-          "Invited talks on key science drivers and EDP2 challenges",
-          "Tutorial 1 (e.g. LSDB catalog cross-matching)"
+          "8:30–9:00 — Breakfast",
+          "9:00–9:20 — Welcome and overview/logistics (Mi Dai)",
+          "9:20–9:40 — Introduction to LINCC Frameworks (Jeremy Kubica)",
+          "9:40–10:30 — Introduction to DP2 and LSDB tutorial (Kostya Malanchev)",
+          "10:30–11:00 — Coffee break",
+          "11:00–11:30 — Introductions",
+          "11:30–12:00 — Lightning talks",
+          "12:00–12:30 — LightCurveLynx tutorial"
+        ]
+      },
+      {
+        "time": "Lunch",
+        "items": [
+          "12:30–2:00 — Lunch"
         ]
       },
       {
         "time": "Afternoon",
         "items": [
-          "Contributed talks",
-          "Lightning talks",
-          "Tutorials 2–3 (e.g. Hyrax light-curve classification; LightCurveLynx simulations)",
-          "Day 1 wrap-up"
+          "2:00–2:30 — FastDB overview (Rob Knop)",
+          "2:30–3:00 — Hyrax (virtual)",
+          "3:00–3:30 — Buffer / discussion",
+          "3:30–4:00 — Coffee break",
+          "4:00–4:40 — Short talks",
+          "4:40–5:30 — Brainstorming hack projects"
         ]
       }
     ]
@@ -30,16 +42,34 @@
       {
         "time": "Morning",
         "items": [
-          "Daily standup and goals",
-          "Hack project pitches and team formation",
-          "Hack / science working groups begin"
+          "8:30–9:00 — Breakfast",
+          "9:00 — Formal hack pitches",
+          "10:30–11:00 — Coffee break"
+        ]
+      },
+      {
+        "time": "Lunch",
+        "items": [
+          "12:30–2:00 — Lunch"
         ]
       },
       {
         "time": "Afternoon",
         "items": [
           "Hack / science working groups",
-          "Progress check-in"
+          "3:30–4:00 — Coffee break",
+          "End-of-day progress report"
+        ]
+      },
+      {
+        "time": "Evening",
+        "items": [
+          "Dinner at Allegheny Observatory",
+          "6:00pm — Shuttle pickup",
+          "6:30pm — Arrive at Allegheny Observatory",
+          "6:30–8:00pm — Dinner",
+          "8:00–9:00pm — Tour",
+          "9:00pm — Shuttle back to University of Pittsburgh"
         ]
       }
     ]
@@ -51,15 +81,24 @@
       {
         "time": "Morning",
         "items": [
-          "Daily standup and goals",
-          "Hack / science working groups"
+          "8:30–9:00 — Breakfast",
+          "9:00 — Morning tag-up",
+          "Hack / science working groups",
+          "10:30–11:00 — Coffee break"
+        ]
+      },
+      {
+        "time": "Lunch",
+        "items": [
+          "12:30–2:00 — Lunch"
         ]
       },
       {
         "time": "Afternoon",
         "items": [
           "Hack / science working groups",
-          "Tutorial development sprint and preparation of final presentations"
+          "3:30–4:00 — Coffee break",
+          "End-of-day progress report"
         ]
       }
     ]
@@ -71,9 +110,9 @@
       {
         "time": "Morning",
         "items": [
-          "Presentation of results",
-          "Roadmap for community resources",
-          "Close and next steps"
+          "8:30–9:00 — Breakfast",
+          "9:00 — Conclusion / looking ahead",
+          "10:30–11:00 — Coffee break"
         ]
       }
     ]

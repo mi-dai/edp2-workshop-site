@@ -8,28 +8,29 @@
         "items": [
           { "time": "8:30–9:00", "text": "Breakfast (provided)" },
           { "time": "9:00–9:15", "text": "Welcome and overview/logistics", "speaker": "Mi Dai" },
-          { "time": "9:15–9:45", "text": "Introduction to LINCC Frameworks", "speaker": "Jeremy Kubica" },
-          { "time": "9:45–10:45", "text": "Introduction to DP2 and LSDB tutorial", "speaker": "Kostya Malanchev" },
-          { "time": "10:45–11:15", "text": "Coffee break" },
-          { "time": "11:15–11:45", "text": "Introductions" },
-          { "time": "11:45–12:15", "text": "Lightning talks" }
+          { "time": "9:15–9:40", "text": "Introduction to LINCC Frameworks", "speaker": "Jeremy Kubica" },
+          { "time": "9:40–10:30", "text": "Introduction to DP2 and LSDB tutorial", "speaker": "Kostya Malanchev" },
+          { "time": "10:30–11:00", "text": "Coffee break" },
+          { "time": "11:00–11:30", "text": "Introductions" },
+          { "time": "11:30–12:00", "text": "Lightning talks" }
         ]
       },
       {
         "time": "Lunch",
         "items": [
-          { "time": "12:15–1:45", "text": "Lunch" }
+          { "time": "12:00–1:30", "text": "Lunch" }
         ]
       },
       {
         "time": "Afternoon",
         "items": [
-          { "time": "1:45–2:15", "text": "LightCurveLynx tutorial" },
-          { "time": "2:15–2:45", "text": "FastDB overview", "speaker": "Rob Knop" },
-          { "time": "2:45–3:15", "text": "Hyrax (virtual)" },
-          { "time": "3:15–3:45", "text": "Coffee break" },
-          { "time": "3:45–4:30", "text": "Short talks" },
-          { "time": "4:30–5:30", "text": "Brainstorming hack projects" }
+          { "time": "1:30–2:00", "text": "LightCurveLynx tutorial" },
+          { "time": "2:00–2:30", "text": "FastDB overview", "speaker": "Rob Knop" },
+          { "time": "2:30–3:00", "text": "Hyrax (virtual)", "speaker": "Drew Oldag" },
+          { "time": "3:00–3:30", "text": "Misc Q&A" },
+          { "time": "3:30–4:00", "text": "Coffee break" },
+          { "time": "4:00–4:40", "text": "Short talks" },
+          { "time": "4:40–5:30", "text": "Brainstorming hack projects" }
         ]
       }
     ]

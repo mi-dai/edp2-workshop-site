@@ -24,49 +24,70 @@ function renderSchedule(days) {
       note.textContent = "Sessions to be announced.";
       section.appendChild(note);
     } else {
-      const list = document.createElement("ul");
-      list.className = "session-list";
-
       day.sessions.forEach((session) => {
-        const item = document.createElement("li");
+        const block = document.createElement("div");
+        block.className = "agenda-block";
 
-        const time = document.createElement("span");
-        time.className = "session-time";
-        time.textContent = session.time || "";
-        item.appendChild(time);
+        if (session.time) {
+          const label = document.createElement("p");
+          label.className = "agenda-block-label";
+          label.textContent = session.time;
+          block.appendChild(label);
+        }
 
-        const details = document.createElement("div");
+        const rows = document.createElement("div");
+        rows.className = "agenda-rows";
 
         if (session.items && session.items.length > 0) {
-          const itemList = document.createElement("ul");
-          itemList.className = "session-items";
-          session.items.forEach((itemText) => {
-            const itemEl = document.createElement("li");
-            itemEl.textContent = itemText;
-            itemList.appendChild(itemEl);
+          session.items.forEach((item) => {
+            const row = document.createElement("div");
+            row.className = item.time ? "agenda-row" : "agenda-row agenda-row--label";
+
+            if (item.time) {
+              const timeEl = document.createElement("span");
+              timeEl.className = "agenda-row-time";
+              timeEl.textContent = item.time;
+              row.appendChild(timeEl);
+            }
+
+            const textEl = document.createElement("span");
+            textEl.className = "agenda-row-text";
+            textEl.textContent = item.text;
+            row.appendChild(textEl);
+
+            if (item.time) {
+              const speakerEl = document.createElement("span");
+              speakerEl.className = "agenda-row-speaker";
+              speakerEl.textContent = item.speaker || "";
+              row.appendChild(speakerEl);
+            }
+
+            rows.appendChild(row);
           });
-          details.appendChild(itemList);
         } else if (session.title) {
-          const title = document.createElement("div");
-          title.textContent = session.title;
-          details.appendChild(title);
+          const row = document.createElement("div");
+          row.className = "agenda-row agenda-row--label";
+          const textEl = document.createElement("span");
+          textEl.className = "agenda-row-text";
+          textEl.textContent = session.title;
+          row.appendChild(textEl);
+          rows.appendChild(row);
         }
+
+        block.appendChild(rows);
 
         const metaText = [session.speaker, session.location]
           .filter(Boolean)
           .join(" — ");
         if (metaText) {
-          const meta = document.createElement("div");
+          const meta = document.createElement("p");
           meta.className = "affiliation";
           meta.textContent = metaText;
-          details.appendChild(meta);
+          block.appendChild(meta);
         }
 
-        item.appendChild(details);
-        list.appendChild(item);
+        section.appendChild(block);
       });
-
-      section.appendChild(list);
     }
 
     container.appendChild(section);

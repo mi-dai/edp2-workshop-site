@@ -6,31 +6,30 @@
       {
         "time": "Morning",
         "items": [
-          "8:30–9:00 — Breakfast",
-          "9:00–9:20 — Welcome and overview/logistics (Mi Dai)",
-          "9:20–9:40 — Introduction to LINCC Frameworks (Jeremy Kubica)",
-          "9:40–10:30 — Introduction to DP2 and LSDB tutorial (Kostya Malanchev)",
-          "10:30–11:00 — Coffee break",
-          "11:00–11:30 — Introductions",
-          "11:30–12:00 — Lightning talks",
-          "12:00–12:30 — LightCurveLynx tutorial"
+          { "time": "8:30–9:00", "text": "Breakfast (provided)" },
+          { "time": "9:00–9:15", "text": "Welcome and overview/logistics", "speaker": "Mi Dai" },
+          { "time": "9:15–9:45", "text": "Introduction to LINCC Frameworks", "speaker": "Jeremy Kubica" },
+          { "time": "9:45–10:45", "text": "Introduction to DP2 and LSDB tutorial", "speaker": "Kostya Malanchev" },
+          { "time": "10:45–11:15", "text": "Coffee break" },
+          { "time": "11:15–11:45", "text": "Introductions" },
+          { "time": "11:45–12:15", "text": "Lightning talks" }
         ]
       },
       {
         "time": "Lunch",
         "items": [
-          "12:30–2:00 — Lunch"
+          { "time": "12:15–1:45", "text": "Lunch" }
         ]
       },
       {
         "time": "Afternoon",
         "items": [
-          "2:00–2:30 — FastDB overview (Rob Knop)",
-          "2:30–3:00 — Hyrax (virtual)",
-          "3:00–3:30 — Buffer / discussion",
-          "3:30–4:00 — Coffee break",
-          "4:00–4:40 — Short talks",
-          "4:40–5:30 — Brainstorming hack projects"
+          { "time": "1:45–2:15", "text": "LightCurveLynx tutorial" },
+          { "time": "2:15–2:45", "text": "FastDB overview", "speaker": "Rob Knop" },
+          { "time": "2:45–3:15", "text": "Hyrax (virtual)" },
+          { "time": "3:15–3:45", "text": "Coffee break" },
+          { "time": "3:45–4:30", "text": "Short talks" },
+          { "time": "4:30–5:30", "text": "Brainstorming hack projects" }
         ]
       }
     ]
@@ -42,34 +41,36 @@
       {
         "time": "Morning",
         "items": [
-          "8:30–9:00 — Breakfast",
-          "9:00 — Formal hack pitches",
-          "10:30–11:00 — Coffee break"
+          { "time": "8:30–9:00", "text": "Breakfast (provided)" },
+          { "time": "9:00–10:30", "text": "Hack pitches + hack group formation" },
+          { "time": "10:30–11:00", "text": "Coffee break" },
+          { "time": "11:00–12:30", "text": "Hack time" }
         ]
       },
       {
         "time": "Lunch",
         "items": [
-          "12:30–2:00 — Lunch"
+          { "time": "12:30–2:00", "text": "Lunch" }
         ]
       },
       {
         "time": "Afternoon",
         "items": [
-          "Hack / science working groups",
-          "3:30–4:00 — Coffee break",
-          "End-of-day progress report"
+          { "time": "2:00–3:30", "text": "Hack time" },
+          { "time": "3:30–4:00", "text": "Coffee break" },
+          { "time": "4:00–5:15", "text": "Hack time" },
+          { "time": "5:15–5:30", "text": "End-of-day progress report" }
         ]
       },
       {
         "time": "Evening",
         "items": [
-          "Dinner at Allegheny Observatory",
-          "6:00pm — Shuttle pickup",
-          "6:30pm — Arrive at Allegheny Observatory",
-          "6:30–8:00pm — Dinner",
-          "8:00–9:00pm — Tour",
-          "9:00pm — Shuttle back to University of Pittsburgh"
+          { "text": "Dinner at Allegheny Observatory" },
+          { "time": "6:00pm", "text": "Shuttle pickup" },
+          { "time": "6:30pm", "text": "Arrive at Allegheny Observatory" },
+          { "time": "6:30–8:00pm", "text": "Dinner" },
+          { "time": "8:00–9:00pm", "text": "Tour" },
+          { "time": "9:00pm", "text": "Shuttle back to University of Pittsburgh" }
         ]
       }
     ]
@@ -81,38 +82,42 @@
       {
         "time": "Morning",
         "items": [
-          "8:30–9:00 — Breakfast",
-          "9:00 — Morning tag-up",
-          "Hack / science working groups",
-          "10:30–11:00 — Coffee break"
+          { "time": "8:30–9:00", "text": "Breakfast (provided)" },
+          { "time": "9:00–9:15", "text": "Morning tag-up" },
+          { "time": "9:15–10:30", "text": "Hack time" },
+          { "time": "10:30–11:00", "text": "Coffee break" },
+          { "time": "11:00–12:30", "text": "Hack time" }
         ]
       },
       {
         "time": "Lunch",
         "items": [
-          "12:30–2:00 — Lunch"
+          { "time": "12:30–2:00", "text": "Lunch" }
         ]
       },
       {
         "time": "Afternoon",
         "items": [
-          "Hack / science working groups",
-          "3:30–4:00 — Coffee break",
-          "End-of-day progress report"
+          { "time": "2:00–3:30", "text": "Hack time" },
+          { "time": "3:30–4:00", "text": "Coffee break" },
+          { "time": "4:00–5:15", "text": "Hack time" },
+          { "time": "5:15–5:30", "text": "End-of-day progress report" }
         ]
       }
     ]
   },
   {
     "date": "2026-09-25",
-    "label": "Day 4 — Friday, Sep 25 (half day)",
+    "label": "Day 4 — Friday, Sep 25",
     "sessions": [
       {
         "time": "Morning",
         "items": [
-          "8:30–9:00 — Breakfast",
-          "9:00 — Conclusion / looking ahead",
-          "10:30–11:00 — Coffee break"
+          { "time": "8:30–9:00", "text": "Breakfast (provided)" },
+          { "time": "9:00–9:15", "text": "Conclusion / looking ahead" },
+          { "time": "9:15–10:30", "text": "Hack time" },
+          { "time": "10:30–11:00", "text": "Coffee break" },
+          { "text": "Rooms available until 6" }
         ]
       }
     ]

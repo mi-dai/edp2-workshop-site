@@ -234,6 +234,15 @@ h1, h2, h3 {
   color: var(--text-muted);
 }
 
+.agenda-row--sub {
+  grid-template-columns: 1fr 160px;
+  padding: 0.4rem 0 0.4rem 1.75rem;
+}
+
+.agenda-row--sub .agenda-row-text {
+  font-size: 0.9rem;
+}
+
 .placeholder-note {
   color: var(--text-muted);
   font-style: italic;

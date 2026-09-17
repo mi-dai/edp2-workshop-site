@@ -63,6 +63,25 @@ function renderSchedule(days) {
             }
 
             rows.appendChild(row);
+
+            if (item.subitems && item.subitems.length > 0) {
+              item.subitems.forEach((sub) => {
+                const subRow = document.createElement("div");
+                subRow.className = "agenda-row agenda-row--sub";
+
+                const subTextEl = document.createElement("span");
+                subTextEl.className = "agenda-row-text";
+                subTextEl.textContent = sub.text;
+                subRow.appendChild(subTextEl);
+
+                const subSpeakerEl = document.createElement("span");
+                subSpeakerEl.className = "agenda-row-speaker";
+                subSpeakerEl.textContent = sub.speaker || "";
+                subRow.appendChild(subSpeakerEl);
+
+                rows.appendChild(subRow);
+              });
+            }
           });
         } else if (session.title) {
           const row = document.createElement("div");

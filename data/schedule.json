@@ -12,7 +12,16 @@
           { "time": "9:40–10:30", "text": "Introduction to DP2 and LSDB tutorial", "speaker": "Kostya Malanchev" },
           { "time": "10:30–11:00", "text": "Coffee break" },
           { "time": "11:00–11:30", "text": "Introductions" },
-          { "time": "11:30–12:00", "text": "Lightning talks" }
+          { "time": "11:30–12:00", "text": "Lightning talks", "subitems": [
+            { "text": "Deep Learning Photometric Redshifts", "speaker": "Brett Andrews" },
+            { "text": "Variability Informed AGN Photometric Redshifts in the LSST Era", "speaker": "Sarath Satheesh Sheeba" },
+            { "text": "Light Curve Classification with Machine Learning", "speaker": "Juan Carlos Cuevas-Tello" },
+            { "text": "Robust Inferences from Large-Scale Survey Data with lf2i", "speaker": "James Carzon" },
+            { "text": "Simulating Lensed Transients with SLSim", "speaker": "Paras Sharma" },
+            { "text": "Diversity-Aware Bayesian Optimization for GW-EM Training Dataset Generation", "speaker": "Natalya Johnson" },
+            { "text": "Design and Forecasts for a Rubin Twilight Program for Nearby Type Ia Supernovae", "speaker": "Xianzhe Tang" },
+            { "text": "Accelerating SNANA with JAX", "speaker": "Matt Grayling" }
+          ] }
         ]
       },
       {
@@ -30,7 +39,11 @@
           { "time": "3:00–3:15", "text": "RAIL/photo-z", "speaker": "TQ Zhang" },
           { "time": "3:15–3:30", "text": "Misc Q&A" },
           { "time": "3:30–4:00", "text": "Coffee break" },
-          { "time": "4:00–4:40", "text": "Short talks" },
+          { "time": "4:00–4:40", "text": "Short talks", "subitems": [
+            { "text": "Identification of Transient Precursors and Late-Time Rebrightening/Flattening in LSST EDP2", "speaker": "Yize Dong" },
+            { "text": "The PLC Mini-Scene Modeling Photometry Challenge", "speaker": "Jason (Jaemyoung) Lee" },
+            { "text": "DESI-AAP: Building a Real-Time Spectroscopic Context Stream for Transient Discovery", "speaker": "Xander Hall" }
+          ] },
           { "time": "4:40–5:30", "text": "Brainstorming hack projects" }
         ]
       }

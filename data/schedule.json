@@ -33,7 +33,7 @@
       {
         "time": "Afternoon",
         "items": [
-          { "time": "1:30–2:00", "text": "LightCurveLynx tutorial" },
+          { "time": "1:30–2:00", "text": "LightCurveLynx tutorial", "speaker": "Jeremy Kubica" },
           { "time": "2:00–2:30", "text": "FastDB overview", "speaker": "Rob Knop" },
           { "time": "2:30–3:00", "text": "Hyrax (virtual)", "speaker": "Drew Oldag" },
           { "time": "3:00–3:15", "text": "RAIL/photo-z", "speaker": "TQ Zhang" },

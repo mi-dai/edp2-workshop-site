@@ -27,7 +27,8 @@
           { "time": "1:30–2:00", "text": "LightCurveLynx tutorial" },
           { "time": "2:00–2:30", "text": "FastDB overview", "speaker": "Rob Knop" },
           { "time": "2:30–3:00", "text": "Hyrax (virtual)", "speaker": "Drew Oldag" },
-          { "time": "3:00–3:30", "text": "Misc Q&A" },
+          { "time": "3:00–3:15", "text": "RAIL/photo-z", "speaker": "TQ Zhang" },
+          { "time": "3:15–3:30", "text": "Misc Q&A" },
           { "time": "3:30–4:00", "text": "Coffee break" },
           { "time": "4:00–4:40", "text": "Short talks" },
           { "time": "4:40–5:30", "text": "Brainstorming hack projects" }

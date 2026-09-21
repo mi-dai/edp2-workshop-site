@@ -136,6 +136,7 @@
           { "time": "9:00–9:15", "text": "Conclusion / looking ahead" },
           { "time": "9:15–10:30", "text": "Hack time" },
           { "time": "10:30–11:00", "text": "Coffee break" },
+          { "time": "11:00–1:00", "text": "More hack time" },
           { "text": "Rooms available until 6" }
         ]
       }

@@ -18,6 +18,13 @@ function renderSchedule(days) {
     heading.textContent = day.label || day.date;
     section.appendChild(heading);
 
+    if (day.location) {
+      const location = document.createElement("p");
+      location.className = "schedule-day-location";
+      location.textContent = day.location;
+      section.appendChild(location);
+    }
+
     if (!day.sessions || day.sessions.length === 0) {
       const note = document.createElement("p");
       note.className = "placeholder-note";
